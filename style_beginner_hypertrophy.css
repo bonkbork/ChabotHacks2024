@@ -8,6 +8,7 @@ body{
 img:hover{
     animation-name: grow;
     animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 #c{
     color: white;
