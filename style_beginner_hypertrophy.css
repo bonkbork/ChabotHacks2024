@@ -1,1 +1,19 @@
+body{
+    background-image: url(images/john-cena-stare.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+img:hover{
+    animation-name: grow;
+    animation-duration: 2s;
+}
+#c{
+    color: white;
 
+}
+@keyframes grow{
+    100%{transform: scale(2, 2)}
+
+}
