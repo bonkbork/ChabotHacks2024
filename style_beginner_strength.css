@@ -1,7 +1,44 @@
-h1
+.headerIcon
 {
-    background-color: turquoise;
-    text-align:center;
+    position: relative;
+    height: 69px;
+    width: auto;
+    top: 40px;
+}
+#icon1
+{
+    margin-right: 15px;
+    transform: rotate(135deg);
+}
+#icon2
+{
+    margin-left: 15px;
+    transform: rotate(45deg);
+}
+.header
+{
+    display: flex;
+    position:relative;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-bottom: -10px;
+    font-size:30px;
+}
+
+.instructions
+{
+    position:relative;
+    text-align: center;
+    border: 2px solid black;
+    width: fit-content;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size:25px;
+    padding: 5px;
+    margin-bottom:12px;
 }
 .container {
     display: flex;
@@ -19,15 +56,13 @@ h1
     bottom:10%;
     left:28%;
 }
-.item
-{
+.item {
     margin-right: 20px; 
     text-align: center;
 }
 .item:hover{
     animation-name: grow;
     animation-duration: 1s;
-    animation-iteration-count: infinite;
 }
 @keyframes grow
 {
@@ -35,4 +70,30 @@ h1
 }
 .item h2 {
     margin-top: 5px; 
+  }
+  .navbar ul
+{
+    list-style-type: none;
+    background: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover
+{
+    background: hsl(0, 0%, 9%);
+}
+
+.navbar li
+{
+    float: left;
 }
