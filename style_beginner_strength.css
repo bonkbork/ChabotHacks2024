@@ -19,9 +19,18 @@ h1
     bottom:10%;
     left:28%;
 }
-.item {
+.item
+{
     margin-right: 20px; 
     text-align: center;
+}
+.item:hover{
+    animation-name: grow;
+    animation-duration: 1s;
+}
+@keyframes grow
+{
+    50%{transform:scale(1.1,1.1)}    
 }
 .item h2 {
     margin-top: 5px; 
