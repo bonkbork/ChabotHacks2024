@@ -1,1 +1,117 @@
 
+h1
+{
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+h2
+{
+font-size: 32px;
+}
+.container
+{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 50px;
+}
+.items
+{
+    margin-left:  240px;
+    text-align: center;
+}
+.items:hover
+{
+    animation-name: grow ;
+    animation-duration: 1s;
+}
+@keyframes grow {
+    50%{transform:scale(1.2,1.2)};
+}
+.navbar ul
+{
+    list-style-type: none;
+    background: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover
+{
+    background: hsl(0, 0%, 9%);
+}
+
+.navbar li
+{
+    float: right;
+}
+
+.container
+{
+    padding: 2rem;
+}
+
+.sliderWrapper
+{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider
+{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+
+
+.slider img
+{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+
+.slider-nav
+{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}   
+
+.slider-nav a
+{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity 250ms ease;
+
+}
+
+.slider-nav a:hover
+{
+opacity: 1;
+}
+
