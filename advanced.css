@@ -25,6 +25,7 @@ font-size: 32px;
 {
     animation-name: grow ;
     animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 @keyframes grow {
     50%{transform:scale(1.2,1.2)};
