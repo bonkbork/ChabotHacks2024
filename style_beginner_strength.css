@@ -27,6 +27,7 @@ h1
 .item:hover{
     animation-name: grow;
     animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 @keyframes grow
 {
@@ -34,4 +35,4 @@ h1
 }
 .item h2 {
     margin-top: 5px; 
-  }
+}
