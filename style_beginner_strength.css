@@ -1,0 +1,28 @@
+h1
+{
+    background-color: turquoise;
+    text-align:center;
+}
+.container {
+    display: flex;
+    flex-wrap: nowrap; /* Ensures items don't wrap to the next line */
+  }
+#box1
+{
+    position:relative;
+    top:15%;
+    left:28%;
+}
+#box2
+{
+    position:relative;
+    bottom:10%;
+    left:28%;
+}
+.item {
+    margin-right: 20px; 
+    text-align: center;
+}
+.item h2 {
+    margin-top: 5px; 
+  }
