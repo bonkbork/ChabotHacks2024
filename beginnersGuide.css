@@ -24,44 +24,10 @@
     height: fit-content;
     left: 50%;
     transform: translate(-50%, 0%);
-    margin-bottom: -10px;
+    margin-bottom: -5px;
     font-size:30px;
-    color: rgb(227, 101, 241);
 }
 
-.instructions
-{
-    position:relative;
-    text-align: center;
-    border: 2px solid white;
-    width: fit-content;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    font-size:25px;
-    padding: 5px;
-    margin-bottom:12px;
-    color:white;
-}
-body{
-    background-image: url(beginnerHypertrophyImages/john-cena-stare.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-img:hover{
-    animation-name: grow;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-#c{
-    color: white;
-
-}
-@keyframes grow{
-    100%{transform: scale(2, 2)}
-
-}
 .navbar ul
 {
     list-style-type: none;

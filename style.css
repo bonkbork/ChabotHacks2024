@@ -24,8 +24,21 @@
     height: fit-content;
     left: 50%;
     transform: translate(-50%, 0%);
-    margin-bottom: -5px;
+    margin-bottom: -10px;
     font-size:30px;
+}
+
+.instructions
+{
+    position:relative;
+    text-align: center;
+    border: 2px solid black;
+    width: fit-content;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size:25px;
+    padding: 5px;
+    margin-bottom:12px;
 }
 
 .navbar ul
@@ -58,7 +71,7 @@
 .container
 {
     padding: 2rem;
-    height:fit-content;
+    height:420px;
 }
 
 .sliderWrapper
@@ -115,4 +128,39 @@
 .slider-nav a:hover
 {
 opacity: 1;
+}
+
+.workouts
+{
+    margin-top:100px;
+    display: flex;
+    position:relative;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-bottom: 20px;
+    font-size:80px;
+}
+.workoutVideos
+{
+    margin-top:20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    column-gap: 100px;
+    width:100%;
+    height:fit-content;
+    padding:25px;
+    flex-wrap: wrap;
+}
+
+.row2
+{   
+    flex-wrap: wrap;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    column-gap: 200px;
 }
